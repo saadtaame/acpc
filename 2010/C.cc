@@ -62,9 +62,9 @@ int main( void ) {
                 open -= 1;
             }
             else {
-				S.push(c);
-				if(c == '(')
-					open += 1;
+                S.push(c);
+                if(c == '(')
+                    open += 1;
             }
         }
         
